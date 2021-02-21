@@ -1,0 +1,42 @@
+.main-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 75px;
+    background-color: black;
+    color: white;
+}
+
+.main-nav-left {
+    padding-left: 20px;
+}
+
+.main-nav-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 300px;
+    margin-left: auto;
+    padding-right: 37.5px;
+}
+
+.main-logo {
+    font-size: 40px;
+}
+
+.main-nav-item {
+    padding-right: 75px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    display: flex;
+}
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+}

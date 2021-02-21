@@ -1,0 +1,11 @@
+.product-price-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.product-price {
+    display: flex;
+    justify-content: center;
+}
